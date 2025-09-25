@@ -1,0 +1,12 @@
+# .editorconfig
+
+# すべてのファイルに適用される基本設定
+[*]
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# PowerShellファイルに特化した設定
+[*.ps1]
+end_of_line = crlf
+charset = utf-16le
